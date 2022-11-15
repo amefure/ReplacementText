@@ -92,7 +92,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .opacity(messageAlert.castOpacity())
                             .cornerRadius(5)
-                            .offset(x: 70, y: 0)
+                            .offset(x: 0, y: -40)
                     }
                     
                     Button(action: {
