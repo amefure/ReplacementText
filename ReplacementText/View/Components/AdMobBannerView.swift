@@ -9,7 +9,12 @@ import SwiftUI
 import Foundation
 import UIKit
 import GoogleMobileAds
-
+// MARK: - アプリID
+// テスト  : ca-app-pub-3940256099942544~1458002511
+// 本番  　: ca-app-pub-4475684244743114~9129255331
+// MARK: - バナー
+// テスト  : ca-app-pub-3940256099942544/2934735716
+// 本番  　: ca-app-pub-4475684244743114/6113862142
 
 struct AdMobBannerView: UIViewRepresentable {
     func makeUIView(context: Context) -> GADBannerView {
