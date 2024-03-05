@@ -7,6 +7,9 @@
 
 import UIKit
 
-class ExString: NSObject {
-
+extension String {
+    
+    /// ダイアログ表示用の文字数を制限
+    public var limitLength: String { self.count <= 5 ? self : self.prefix(5) + "..." }
 }
+

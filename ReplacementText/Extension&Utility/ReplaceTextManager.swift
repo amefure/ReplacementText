@@ -10,7 +10,8 @@ import UIKit
 class ReplaceTextManager {
 
     /// テキスト置換ロジック
-    static func replaceString(text: String, beforeCharacter: String, AfterCharacter: String) -> String {
-        return text.replacingOccurrences(of: beforeCharacter, with: AfterCharacter)
+    static func replaceString(text: String, before: String, after: String) -> String {
+        let result = text.replacingOccurrences(of: before, with: after)
+        return result
     }
 }

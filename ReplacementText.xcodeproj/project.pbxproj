@@ -8,21 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		121EADC82921221A00C4E6D5 /* ReplacementTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121EADC72921221A00C4E6D5 /* ReplacementTextApp.swift */; };
-		121EADCA2921221A00C4E6D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121EADC92921221A00C4E6D5 /* ContentView.swift */; };
+		121EADCA2921221A00C4E6D5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121EADC92921221A00C4E6D5 /* RootView.swift */; };
 		121EADCC2921221C00C4E6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121EADCB2921221C00C4E6D5 /* Assets.xcassets */; };
 		121EADCF2921221C00C4E6D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121EADCE2921221C00C4E6D5 /* Preview Assets.xcassets */; };
 		121EADD62921225200C4E6D5 /* AdMobBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121EADD52921225200C4E6D5 /* AdMobBannerView.swift */; };
+		122FF34F2B96DCEC00EF4680 /* MessageBalloonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF34E2B96DCEC00EF4680 /* MessageBalloonViewModel.swift */; };
+		122FF3542B96DDEA00EF4680 /* ReplaceTextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF3532B96DDEA00EF4680 /* ReplaceTextManager.swift */; };
+		122FF3582B96DFD300EF4680 /* ColorAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF3572B96DFD300EF4680 /* ColorAsset.swift */; };
+		122FF35A2B96E0D300EF4680 /* DeviceSizeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF3592B96E0D300EF4680 /* DeviceSizeManager.swift */; };
+		122FF35C2B96E1A800EF4680 /* CustomNotifyDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF35B2B96E1A800EF4680 /* CustomNotifyDialogView.swift */; };
+		122FF3602B96EB1000EF4680 /* ExString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF35F2B96EB1000EF4680 /* ExString.swift */; };
+		122FF3652B96EB7200EF4680 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF3642B96EB7200EF4680 /* HeaderView.swift */; };
+		122FF3672B96EBA300EF4680 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF3662B96EBA300EF4680 /* InputView.swift */; };
+		122FF3692B96EC3800EF4680 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF3682B96EC3800EF4680 /* ActionView.swift */; };
+		122FF36C2B97417700EF4680 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 122FF36B2B97417700EF4680 /* PrivacyInfo.xcprivacy */; };
 		DBD2CCDA28CAEEE63FA426D5 /* Pods_ReplacementText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71583862ABE53F01E10B1FE /* Pods_ReplacementText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		121EADC42921221A00C4E6D5 /* ReplacementText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReplacementText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		121EADC72921221A00C4E6D5 /* ReplacementTextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplacementTextApp.swift; sourceTree = "<group>"; };
-		121EADC92921221A00C4E6D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		121EADC92921221A00C4E6D5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		121EADCB2921221C00C4E6D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		121EADCE2921221C00C4E6D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		121EADD52921225200C4E6D5 /* AdMobBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobBannerView.swift; sourceTree = "<group>"; };
 		121EADD72921227100C4E6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		122FF34E2B96DCEC00EF4680 /* MessageBalloonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBalloonViewModel.swift; sourceTree = "<group>"; };
+		122FF3532B96DDEA00EF4680 /* ReplaceTextManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceTextManager.swift; sourceTree = "<group>"; };
+		122FF3572B96DFD300EF4680 /* ColorAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAsset.swift; sourceTree = "<group>"; };
+		122FF3592B96E0D300EF4680 /* DeviceSizeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSizeManager.swift; sourceTree = "<group>"; };
+		122FF35B2B96E1A800EF4680 /* CustomNotifyDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNotifyDialogView.swift; sourceTree = "<group>"; };
+		122FF35F2B96EB1000EF4680 /* ExString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExString.swift; sourceTree = "<group>"; };
+		122FF3642B96EB7200EF4680 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		122FF3662B96EBA300EF4680 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		122FF3682B96EC3800EF4680 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		122FF36B2B97417700EF4680 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A71583862ABE53F01E10B1FE /* Pods_ReplacementText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReplacementText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A3E36F91EA7BDE2D7379EF /* Pods-ReplacementText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplacementText.debug.xcconfig"; path = "Target Support Files/Pods-ReplacementText/Pods-ReplacementText.debug.xcconfig"; sourceTree = "<group>"; };
 		F3F6AF0BA7A1CFE89D74CEA9 /* Pods-ReplacementText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplacementText.release.xcconfig"; path = "Target Support Files/Pods-ReplacementText/Pods-ReplacementText.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,9 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				121EADD72921227100C4E6D5 /* Info.plist */,
-				121EADC72921221A00C4E6D5 /* ReplacementTextApp.swift */,
-				121EADC92921221A00C4E6D5 /* ContentView.swift */,
-				121EADD52921225200C4E6D5 /* AdMobBannerView.swift */,
+				122FF36B2B97417700EF4680 /* PrivacyInfo.xcprivacy */,
+				122FF3522B96DDCD00EF4680 /* Extension&Utility */,
+				122FF3512B96DD8A00EF4680 /* View */,
+				122FF3502B96DD7D00EF4680 /* ViewModel */,
 				121EADCB2921221C00C4E6D5 /* Assets.xcassets */,
 				121EADCD2921221C00C4E6D5 /* Preview Content */,
 			);
@@ -77,6 +98,71 @@
 				121EADCE2921221C00C4E6D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		122FF3502B96DD7D00EF4680 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				122FF34E2B96DCEC00EF4680 /* MessageBalloonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		122FF3512B96DD8A00EF4680 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				121EADC72921221A00C4E6D5 /* ReplacementTextApp.swift */,
+				122FF3612B96EB5300EF4680 /* RootView */,
+				122FF35D2B96E1AC00EF4680 /* Dialog */,
+				122FF35E2B96E1C400EF4680 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		122FF3522B96DDCD00EF4680 /* Extension&Utility */ = {
+			isa = PBXGroup;
+			children = (
+				122FF3532B96DDEA00EF4680 /* ReplaceTextManager.swift */,
+				122FF3572B96DFD300EF4680 /* ColorAsset.swift */,
+				122FF35F2B96EB1000EF4680 /* ExString.swift */,
+				122FF3592B96E0D300EF4680 /* DeviceSizeManager.swift */,
+			);
+			path = "Extension&Utility";
+			sourceTree = "<group>";
+		};
+		122FF35D2B96E1AC00EF4680 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				122FF35B2B96E1A800EF4680 /* CustomNotifyDialogView.swift */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		122FF35E2B96E1C400EF4680 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				122FF3642B96EB7200EF4680 /* HeaderView.swift */,
+				121EADD52921225200C4E6D5 /* AdMobBannerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		122FF3612B96EB5300EF4680 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				121EADC92921221A00C4E6D5 /* RootView.swift */,
+				122FF36A2B97305800EF4680 /* Components */,
+			);
+			path = RootView;
+			sourceTree = "<group>";
+		};
+		122FF36A2B97305800EF4680 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				122FF3662B96EBA300EF4680 /* InputView.swift */,
+				122FF3682B96EC3800EF4680 /* ActionView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		8209A6BB6C8954FCEC69A659 /* Frameworks */ = {
@@ -156,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122FF36C2B97417700EF4680 /* PrivacyInfo.xcprivacy in Resources */,
 				121EADCF2921221C00C4E6D5 /* Preview Assets.xcassets in Resources */,
 				121EADCC2921221C00C4E6D5 /* Assets.xcassets in Resources */,
 			);
@@ -210,9 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				121EADCA2921221A00C4E6D5 /* ContentView.swift in Sources */,
+				122FF3692B96EC3800EF4680 /* ActionView.swift in Sources */,
+				121EADCA2921221A00C4E6D5 /* RootView.swift in Sources */,
+				122FF3602B96EB1000EF4680 /* ExString.swift in Sources */,
 				121EADC82921221A00C4E6D5 /* ReplacementTextApp.swift in Sources */,
+				122FF3542B96DDEA00EF4680 /* ReplaceTextManager.swift in Sources */,
 				121EADD62921225200C4E6D5 /* AdMobBannerView.swift in Sources */,
+				122FF3652B96EB7200EF4680 /* HeaderView.swift in Sources */,
+				122FF3582B96DFD300EF4680 /* ColorAsset.swift in Sources */,
+				122FF34F2B96DCEC00EF4680 /* MessageBalloonViewModel.swift in Sources */,
+				122FF3672B96EBA300EF4680 /* InputView.swift in Sources */,
+				122FF35C2B96E1A800EF4680 /* CustomNotifyDialogView.swift in Sources */,
+				122FF35A2B96E0D300EF4680 /* DeviceSizeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -323,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"ReplacementText/Preview Content\"";
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
@@ -349,13 +445,13 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ame.ReplacementText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -371,7 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"ReplacementText/Preview Content\"";
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
@@ -380,13 +476,13 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ame.ReplacementText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

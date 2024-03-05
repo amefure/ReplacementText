@@ -9,7 +9,19 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Text("文字列置換")
+            HStack(spacing: 0){
+                Image(systemName: "chevron.right")
+                Image(systemName: "chevron.right")
+                Image(systemName: "chevron.right")
+            }
+            Text("ReplacementText")
+            
+        }.frame(width: DeviceSizeManager.deviceWidth)
+            .padding()
+            .foregroundColor(ColorAsset.exText.thisColor)
+            .background(ColorAsset.exThema.thisColor)
     }
 }
 
