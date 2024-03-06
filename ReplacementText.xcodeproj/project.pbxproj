@@ -22,6 +22,7 @@
 		122FF3672B96EBA300EF4680 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF3662B96EBA300EF4680 /* InputView.swift */; };
 		122FF3692B96EC3800EF4680 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF3682B96EC3800EF4680 /* ActionView.swift */; };
 		122FF36C2B97417700EF4680 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 122FF36B2B97417700EF4680 /* PrivacyInfo.xcprivacy */; };
+		122FF3702B983A3E00EF4680 /* ExUIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122FF36F2B983A3E00EF4680 /* ExUIApplication.swift */; };
 		DBD2CCDA28CAEEE63FA426D5 /* Pods_ReplacementText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A71583862ABE53F01E10B1FE /* Pods_ReplacementText.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		122FF3662B96EBA300EF4680 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		122FF3682B96EC3800EF4680 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
 		122FF36B2B97417700EF4680 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		122FF36F2B983A3E00EF4680 /* ExUIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExUIApplication.swift; sourceTree = "<group>"; };
 		A71583862ABE53F01E10B1FE /* Pods_ReplacementText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReplacementText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A3E36F91EA7BDE2D7379EF /* Pods-ReplacementText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplacementText.debug.xcconfig"; path = "Target Support Files/Pods-ReplacementText/Pods-ReplacementText.debug.xcconfig"; sourceTree = "<group>"; };
 		F3F6AF0BA7A1CFE89D74CEA9 /* Pods-ReplacementText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplacementText.release.xcconfig"; path = "Target Support Files/Pods-ReplacementText/Pods-ReplacementText.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				122FF3532B96DDEA00EF4680 /* ReplaceTextManager.swift */,
+				122FF36F2B983A3E00EF4680 /* ExUIApplication.swift */,
 				122FF3572B96DFD300EF4680 /* ColorAsset.swift */,
 				122FF35F2B96EB1000EF4680 /* ExString.swift */,
 				122FF3592B96E0D300EF4680 /* DeviceSizeManager.swift */,
@@ -299,6 +302,7 @@
 			files = (
 				122FF3692B96EC3800EF4680 /* ActionView.swift in Sources */,
 				121EADCA2921221A00C4E6D5 /* RootView.swift in Sources */,
+				122FF3702B983A3E00EF4680 /* ExUIApplication.swift in Sources */,
 				122FF3602B96EB1000EF4680 /* ExString.swift in Sources */,
 				121EADC82921221A00C4E6D5 /* ReplacementTextApp.swift in Sources */,
 				122FF3542B96DDEA00EF4680 /* ReplaceTextManager.swift in Sources */,
@@ -436,7 +440,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"ReplacementText/Preview Content\"";
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
@@ -451,7 +455,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ame.ReplacementText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -467,7 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"ReplacementText/Preview Content\"";
 				DEVELOPMENT_TEAM = CGD79LB65H;
 				ENABLE_PREVIEWS = YES;
@@ -482,7 +486,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ame.ReplacementText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

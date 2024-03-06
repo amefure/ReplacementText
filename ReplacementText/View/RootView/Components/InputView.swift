@@ -41,6 +41,7 @@ struct InputView: View {
             Spacer()
             
             Button {
+                UIApplication.shared.closeKeyboard()
                 showTipsDialog = true
             } label: {
                 Image(systemName: "questionmark.app")

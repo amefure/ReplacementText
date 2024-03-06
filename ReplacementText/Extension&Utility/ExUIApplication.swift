@@ -1,0 +1,15 @@
+//
+//  ExUIApplication.swift
+//  ReplacementText
+//
+//  Created by t&a on 2024/03/06.
+//
+
+import UIKit
+
+extension UIApplication {
+    // フォーカスの制御をリセット
+    func closeKeyboard() {
+        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+    }
+}

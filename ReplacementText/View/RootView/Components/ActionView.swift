@@ -23,6 +23,7 @@ struct ActionView: View {
             
             // MARK: - Action
             Button(action: {
+                UIApplication.shared.closeKeyboard()
                 beforeCharacter = ""
                 afterCharacter = ""
                 text = ""
@@ -36,6 +37,7 @@ struct ActionView: View {
             
             // MARK: - Action
             Button(action: {
+                UIApplication.shared.closeKeyboard()
                 // バリデーション
                 guard !text.isEmpty,
                       !beforeCharacter.isEmpty,
@@ -81,6 +83,7 @@ struct ActionView: View {
                 }
                 
                 Button(action: {
+                    UIApplication.shared.closeKeyboard()
                     UIPasteboard.general.string = text
                     messageAlertVm.isPreview = true
                     messageAlertVm.vanishMessage()
